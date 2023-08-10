@@ -12,7 +12,7 @@ import React, { useReducer } from 'react';
 
 const CocktailState = (props) => {
     //conecto la url con axios, utilizo reactQuery y Json server
-    const respApi = axios.create({ baseURL: 'http://localhost:3000' });
+    const respApi = axios.create({ baseURL: 'https://que-trago-hacer-app.vercel.app' });
     //creo el estado inicial
     const initialState = {
         cocktails: [],
@@ -30,7 +30,7 @@ const CocktailState = (props) => {
             const data = res.data;
             dispatch({ type: GET_COCKTAILS, payload: data });
         } catch (error) {
-            alert('Error al cargar los datos: intenta nuevamente!');
+            alert('Error al cargar los datos: intenta mas tarde!');
         }
     };
 
