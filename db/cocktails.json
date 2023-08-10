@@ -1,0 +1,335 @@
+{
+    "cocktails": [
+        {
+            "id": 2,
+            "name": "Caipiriña",
+            "ingredients": ["Hielo", "Lima", "Azucar", "Cachaca"],
+            "recepy": "En la coctelera, aplastar 4 gajos de lima con 4 cucharadas de azucar, llenar el vaso con hielo roto e incorporarlo a la coctelera, luego agregar 60ml de 'cachaca/cachaça' y batir arduamente",
+            "optional": "Al aplastar podemos incorporar alguna fruta a gusto, como por ejemplo frutos rojos",
+            "categoryId": 2,
+            "difficulty": 4
+        },
+
+        {
+            "id": 3,
+            "name": "Mojito",
+            "ingredients": ["Hielo", "Lima", "Azucar", "Ron", "Menta", "Soda"],
+            "recepy": "En el vaso, aplastar 4 rodajas de limon con 4 cucharadas de azucar, luego agregar 2 ramas de menta y levemente aplastarlas, agregar 90ml de Ron y hielo hasta arriba, revolver y terminar con soda ",
+            "tip": "Reemplazar azucar por 45ml de almibar para mejor integracion",
+            "categoryId": 3
+        },
+        {
+            "id": 4,
+            "name": "Julepe de Cynar",
+            "ingredients": [
+                "Hielo",
+                "Lima",
+                "Azucar",
+                "Cynar",
+                "Menta",
+                "Pomelo"
+            ],
+            "recepy": "En el vaso, aplastar 4 rodajas de limon (45ml) con 4 cucharadas de azucar, luego agregar 2 ramas de menta y levemente aplastarlas, agregar 90ml de Cynar y hielo hasta arriba, revolver y terminar con juego de pomelo.",
+            "tip": "Reemplazar azucar por 45ml de almibar para mejor integracion, tambien puedo macerar el pomelo con el limon",
+
+            "categoryId": 3
+        },
+        {
+            "id": 5,
+            "name": "Baileys Frozzen",
+            "ingredients": ["Helado", "Baileys", "Whisky", "Chocolates"],
+            "recepy": "Licuar helado con el Baileys y chocolates a gusto",
+            "optional": "un golpe de Whiskky al licuar",
+            "categoryId": 1
+        },
+        {
+            "id": 6,
+            "name": "Cuba Libre",
+            "ingredients": ["Hielo", "Limon", "Ron", "Gaseosa Cola"],
+            "recepy": "En un vaso agregar 3 hielos grandes, 60ml de Ron y completar con Gaseosa Cola",
+            "optional": "un gajo explimido de limon",
+            "tip": "remplazar el limon por lima para que quede mejor",
+            "categoryId": 3
+        },
+        {
+            "id": 7,
+            "name": "Margarita",
+            "ingredients": [
+                "Hielo",
+                "Limon",
+                "Tequila",
+                "Triple sec",
+                "Azucar"
+            ],
+            "recepy": "Enfiar una copa tipo martini o la que tengas, en coctelera agregar 50ml de Tequila, 30ml de Triple sec, 30ml de jugo de limon, hielo y batir, luego doble colado hacia la copa",
+            "optional": "un poco de azucar o almibar dentro de la preparacion",
+            "tip": "sal al borde de la copa",
+            "categoryId": 2
+        },
+        {
+            "id": 8,
+            "name": "Campari Orange",
+            "ingredients": ["Hielo", "Naranja", "Campari", "Jugo de naranja"],
+            "recepy": "En un vaso agregar 3 hielos grandes, 60ml de Campari y completar con Jugo de naranja",
+            "optional": "una rodaja de naranja dentro del trago",
+            "categoryId": 3
+        },
+        {
+            "id": 9,
+            "name": "Daiquiri",
+            "ingredients": ["Hielo", "Limon", "Ron", "Frutillas", "Azucar"],
+            "recepy": "Licuar frutillas(a gusto), hielo, 4 cucharadas azucar, 60ml de Ron y servir ",
+            "tip": "Un poco de jugo de limon en la preparacion",
+            "categoryId": 1
+        },
+        {
+            "name": "Fernet & Cola",
+            "id": 10,
+            "ingredients": ["Hielo", "Fernet", "Gaseosa cola"],
+            "recepy": "En un vaso de trago, agregar 3 hielos, Fernet 60ml, terminar con gaseosa de cola",
+            "categoryId": 3
+        },
+        {
+            "id": 11,
+            "name": "Vodka Orange",
+            "ingredients": ["Hielo", "Vodka", "Jugo de naranja"],
+            "recepy": "En un vaso agregar 3 hielos, Vodka 60ml, y terminar con jugo de naranja",
+            "optional": "Agregar rodaja de naranja",
+            "tip": "Revolver para integrar",
+            "categoryId": 3
+        },
+        {
+            "id": 12,
+            "name": "Tom Collins",
+            "ingredients": ["Hielo", "Limon", "Gin", "Azucar", "Gaseosa tonica"],
+            "recepy": "En la coctelera, aplastar 4 gajos de limon con 4 cucharadas de azucar, llenar el vaso con hielo roto e incorporarlo a la coctelera, luego agregar 60ml de Gin y batir arduamente, incluir al vaso y terminar con Gaseosa Tonica",
+            "optional": "Puedes reemplazar limon por lima, si tienes a mano algun citrico tambien puedes incluirlo para saborizar",
+            "tip": "Reemplazar azucar por 45ml de almibar para mejor integracion",
+            "categoryId": 2
+        },
+        {
+            "id": 13,
+            "name": "Daiquiri clasico",
+            "ingredients": ["Hielo", "Limon", "Ron", "Azucar"],
+            "recepy": "En coctelera agregar Ron 60ml, 3 cucharadas de azucar y jugo de limon 30ml o 2 gajos y colar en copa martini previamente enfriada",
+            "optional": "Reemplazar un poco de jugo de limon por juego de otra fruta para saborizar",
+            "tip": "Reemplazar azucar por 30ml de almibar para mejor integracion",
+            "categoryId": 2
+        },
+        {
+            "id": 14,
+            "name": "Manhattan",
+            "ingredients": [
+                "Hielo",
+                "Whisky",
+                "Vermut rosso",
+                "Bitter angostura"
+            ],
+            "recepy": "Enfiar una copa tipo martini o la que tengas, en un vaso agregar 60 de Whisky, 30ml de Vermut rosso, 4 golpes de Bitter angostura(10 gotas), hielo y revolver con cuchara, lueo colar hacia la copa",
+            "optional": "Para acompañar, podemos agregar una cereza",
+            "tip": "Agregarle piel de naranja al revolver, si el whisky es bourbon mejor",
+            "categoryId": 2
+        },
+        {
+            "id": 15,
+            "name": "Martini",
+            "ingredients": ["Hielo", "Gin", "Vermut blanco seco", "Aceitunas"],
+            "recepy": "Enfiar una copa tipo martini o la que tengas, en un vaso agregar 60ml de Gin, 15ml de Vermut blanco seco, hielo y revolver con cuchara, luego colar hacia la copa y colocar aceitunas",
+            "optional": "Reemplazar el Vermut seco por un Vermut bianco, para hacerlo mas amable",
+            "categoryId": 2
+        },
+        {
+            "id": 16,
+            "name": "Cosmopolitan",
+            "ingredients": [
+                "Hielo",
+                "Vodka",
+                "Triple sec",
+                "Limon",
+                "Azucar",
+                "Jugo de arandanos"
+            ],
+            "recepy": "Enfiar una copa tipo martini o la que tengas, en coctelera agregar 45ml de Vodka, 15ml de Triple sec,1 cucharada de azucar,jugo de limon 2 gajos, 30ml jugo de arandanos, hielo y batir, luego colar hacia la copa",
+            "optional": "Reemplazar el limon por lima para mejor sabor",
+            "tip": "Reemplazar azucar por 15ml de almibar para mejor integracion. Si el jugo de arandano tiene azucar, entonces no incuir azucar al trago",
+            "categoryId": 2
+        },
+        {
+            "id": 17,
+            "name": "Negroni",
+            "ingredients": ["Hielo", "Gin", "Vermut rosso", "Campari"],
+            "recepy": "En un vaso agregar, 45ml de Gin, 45ml de Vermut rosso, 45ml de Campari y hielo, revolver con cuchara y servir en un vaso con 2 hielos frescos",
+            "optional": "Puedes remplazar el Campari por cualquier otro bitter rojo",
+            "tip": "Agregar una cascara de naranja mientras revolvemos para potenciar sabor citrico",
+            "categoryId": 3
+        },
+        {
+            "id": 18,
+            "name": "Old Fashioned",
+            "ingredients": ["Hielo", "Whisky", "Bitter angostura", "Azucar"],
+            "recepy": "En un vaso agregar 2 cucharadas de azucar, 5 golpes de Bitter angostura(12 gotas), hacer una pasta (ayudarse con unas gotas de Whisky) y recubrir las paredes de la copa, agregar 60ml de Whisky, levemente integrar el fondo y colocar 2 hielos, terminar con piel de naranja",
+            "optional": "Puedes colocar una cereza al marrasquino",
+            "tip": "Flamear las paredes del vaso con la pasta que hicimos para acaramelar el trago",
+            "categoryId": 3
+        },
+
+        {
+            "id": 19,
+            "name": "Caipiroska",
+            "ingredients": ["Hielo", "Lima", "Azucar", "Vodka"],
+            "recepy": "En la coctelera, aplastar 4 gajos de lima con 4 cucharadas de azucar, llenar el vaso con hielo roto e incorporarlo a la coctelera, luego agregar 60ml de 'Vodka' y batir arduamente",
+            "optional": "Al aplastar podemos incorporar alguna fruta a gusto, como por ejemplo frutos rojos",
+            "categoryId": 2,
+            "difficulty": 3
+        },
+        {
+            "id": 20,
+            "name": "Caipirisima",
+            "ingredients": ["Hielo", "Lima", "Azucar", "Ron"],
+            "recepy": "En la coctelera, aplastar 4 gajos de lima con 4 cucharadas de azucar, llenar el vaso con hielo roto e incorporarlo a la coctelera, luego agregar 60ml de 'Ron' y batir arduamente",
+            "optional": "Al aplastar podemos incorporar alguna fruta a gusto, como por ejemplo frutos rojos",
+
+            "categoryId": 2,
+            "difficulty": 3
+        },
+        {
+            "id": 21,
+            "name": "Espresso Martini",
+            "ingredients": ["Hielo", "Cafe", "Vodka", "Licor de cafe"],
+            "recepy": "En la coctelera, agregar 45ml de Vodka, 25ml de Licor de cafe, 25ml de cafe expreso y hielo, batir y colar en copa martini previamente enfriada",
+            "tip": "Hacer el cafe con antelacion y dejarlo enfriar asi evitamos la excesiva dilucion para enfriar el cafe",
+            "categoryId": 2,
+            "difficulty": 3
+        },
+        {
+            "id": 22,
+            "name": "Whisky Sour",
+            "ingredients": ["Hielo", "Whisky", "Limon", "Azucar", "Huevo"],
+            "recepy": "En la coctelera, agregar 45ml de Whisky, 30ml de jugo de limon (medio limon),2 cucharadas de azucar, la clara de 1 huevo, batir sin hielo (dry shake), luego agregar el hielo y volver a batir para enfirar,luego colar en copa martini previamente enfriada",
+            "optional": "Finalizar con cascara de naranja",
+            "tip": "Podemos reemplazar la clara de huevo por agua de garbanzos (aquafaba) para lograr la espuma y evitar el huevo. ",
+            "categoryId": 2,
+            "difficulty": 3
+        },
+        {
+            "id": 23,
+            "name": "Penicillin",
+            "ingredients": [
+                "Hielo",
+                "Whisky",
+                "Limon",
+                "Azucar",
+                "Jengibre",
+                "Miel"
+            ],
+            "recepy": "En la coctelera, agregar 60ml de Whisky, 30ml de jugo de limon (medio limon),2 cucharadas de azucar 1 cucharada de Miel y Jengibre rallado, batir y colar en vaso de whisky con hielo fresco",
+            "optional": "Finalizar con cascara de limon y trozo de jengibre",
+            "tip": "Si somos fan del peni podemos hacer el almibar con miel y jengibre, quedara mucho mejor",
+            "categoryId": 2,
+            "difficulty": 3
+        },
+        {
+            "id": 24,
+            "name": "Boulevardier",
+            "ingredients": ["Hielo", "Whisky", "Vermut rosso", "Campari"],
+            "recepy": "En un vaso agregar, 45ml de Whisky, 45ml de Vermut rosso, 45ml de Campari y hielo, revolver con cuchara y servir en un vaso con 2 hielos frescos",
+            "optional": "Puedes remplazar el Campari por cualquier otro bitter rojo",
+            "tip": "Agregar una cascara de naranja mientras revolvemos para potenciar sabor citrico",
+            "categoryId": 3
+        },
+        {
+            "id": 25,
+            "name": "Aperol Spritz",
+            "ingredients": ["Hielo", "Aperol", "Espumante", "Soda"],
+            "recepy": "En una copa agregar, hielo hasta completar, 90ml de Aperol, 60ml de Espumante y completar el trago con soda",
+            "optional": "Puedes hacerlo de partes iguales si no tienes como medir",
+            "tip": "Con un espumante extra brut quedara mejor",
+            "categoryId": 3
+        },
+        {
+            "id": 26,
+            "name": "Moscow Mule",
+            "ingredients": ["Hielo", "Vodka", "Lima", "Ginger beer"],
+            "recepy": "En un vaso, agregar mucho hielo roto, luego 45ml de Vodka, 15ml de jugo de Lima, y terminar con Ginger beer(cerveza de jengibre), revolver levemente para integrar ",
+            "optional": "Un gajo de lima para decorar",
+            "tip": "No tienes ginger beer pero si jengibre?, agrega el jengibre al trago y completalo con soda",
+            "categoryId": 3
+        },
+        {
+            "id": 27,
+            "name": "Bloody mary",
+            "ingredients": [
+                "Hielo",
+                "Vodka",
+                "Worcestershire",
+                "Tabasco",
+                "Limon",
+                "Tomate",
+                "Apio",
+                "Caldo de carne",
+                "Pimienta"
+            ],
+            "recepy": "En un vaso, 60ml de Vodka, 3 gotas de Worcestershire, 2 de Tabasco, 15ml de jugo de limon, 1 pizca de Pimienta, 10 ml de caldo de carne, revolvemos todo y agregamos bastante hielo y 180ml de jugo de tomate, volvemos a revolver y colamos en un vaso largo, decoramos con tronco de apio",
+            "optional": "sal de apio, podemos disecar las hojas del apio y colocarselas al coctel para mas sabor",
+            "tip": "No tienes ginger beer pero si jengibre?, agrega el jengibre al trago y completalo con soda",
+            "categoryId": 3
+        },
+        {
+            "id": 28,
+            "name": "Sex On The Beach",
+            "ingredients": [
+                "Hielo",
+                "Vodka",
+                "Licor de  durazno",
+                "Granadina",
+                "Naranja"
+            ],
+            "recepy": "En un vaso, bastante hielo, 60ml de Vodka, 30ml de Licor de durazno, 10ml de Granadina y completar con jugo de naranja",
+            "categoryId": 3
+        },
+        {
+            "id": 29,
+            "name": "White russian",
+            "ingredients": [
+                "Hielo",
+                "Vodka",
+                "Licor de cafe",
+                "Crema de leche"
+            ],
+            "recepy": "En un vaso, bastante hielo, 40ml de Vodka, 40ml de Licor de cafe, revolver y si gustas que queden los colores separados con cuidado agregar la crema de leche volcandola en el dorso de una cuchara, luego antes de beber integrar bien todo",
+            "categoryId": 3
+        },
+        {
+            "id": 30,
+            "name": "Vodka Fizz",
+            "ingredients": ["Hielo", "Vodka", "Lima", "Azucar", "Soda"],
+            "recepy": "En una coctelera, agregar 45ml de Vodka, 15ml de jugo de lima, 1 cucharada de azucar, batir y servir en vaso con hielo, terminar con soda y gajo de lima",
+            "optional": "Reemplazar azucar por 15ml de almibar",
+            "categoryId": 3
+        },
+        {
+            "id": 31,
+            "name": "Vodka Tonic",
+            "ingredients": ["Hielo", "Vodka", "Gaseosa tonica"],
+            "recepy": "En un vaso, agregar 3 Hielos, 60ml de Vodka y terminar con gaseosa Tonica, decorar con rodaja de pomelo",
+            "categoryId": 3
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Licuados",
+            "description": "Tragos licuados"
+        },
+        {
+            "id": 2,
+            "name": "Batidos",
+            "description": "Tragos Batidos en cocktelera"
+        },
+        {
+            "id": 3,
+            "name": "Directos",
+            "description": "Tragos armados directamente en el vaso"
+        }
+    ]
+}

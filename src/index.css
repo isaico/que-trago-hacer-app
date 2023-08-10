@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@base{
+
+}
+.neon {
+    text-shadow: 0 0 0.5em #fff, 0 0 0.5em #ff1177;
+    filter: drop-shadow(0 0 0.5em #ff1177);
+    color: hsla(325 80% 100%/1);
+}
+.border-neon {
+    border: 3px solid hsla(325 80% 100%/1);
+    box-shadow: inset 0 0 0.3em #fff, 0 0 0.3em #fff, inset 0 0 0.2em #ff1177,
+        0 0 0.2em #ff1177, inset 0 0 0.5em #ff1177, 0 0 0.5em #ff1177;
+    filter: drop-shadow(0 0 3em #ff1177);
+}
+.blink {
+    animation: blink linear infinite 2s;
+    animation-delay: 3s;
+}
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79% {
+        color: #333;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #333;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #333;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
