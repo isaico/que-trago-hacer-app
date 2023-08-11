@@ -3,7 +3,6 @@ import IngredientsForm from '../ingredientsInput/IngredientsForm';
 import Logo from '../Logo/Logo';
 
 const Header = () => {
-    
     return (
         <>
             <div className="absolute top-4 left-4 invisible md:visible">
@@ -46,8 +45,8 @@ const Header = () => {
                     <div className="bg-secondaryBg md:py-8 p-4 lg:py-12 w-full sm:px-4 rounded-2xl">
                         <h2 className="md:mb-12 mb-8 sm:text-lg text-sm font-medium text-gray-200 lg:text-xl sm:px-16 lg:px-20 dark:text-gray-200">
                             ¡Agrega los ingredientes que tengas a mano, y
-                            obtendrás una lista de tragos que tú mismo puedes
-                            hacer!
+                            obtendrás recetas fáciles y rápidas para tragos que
+                            puedan hacerse en casa!
                         </h2>
                         <IngredientsForm />
 
