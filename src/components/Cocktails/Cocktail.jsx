@@ -48,6 +48,12 @@ const Cocktail = ({ item }) => {
 
                 <div className="self-end">
                     <DefaultModal item={item}></DefaultModal>
+                    {/* <a
+                        target="_blank"
+                        href="https://www.highcpmrevenuegate.com/ww2qnnzje?key=e8a6211438341a71a038d0a80b7b6bd1"
+                    >
+                        adds
+                    </a> */}
                 </div>
             </div>
         </>

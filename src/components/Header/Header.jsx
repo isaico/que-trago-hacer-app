@@ -45,7 +45,7 @@ const Header = () => {
                     <div className="bg-secondaryBg md:py-8 p-4 lg:py-12 w-full sm:px-4 rounded-2xl">
                         <h2 className="md:mb-12 mb-8 sm:text-lg text-sm font-medium text-gray-200 lg:text-xl sm:px-16 lg:px-20 dark:text-gray-200">
                             ¡Agrega los ingredientes que tengas a mano, y
-                            obtendrás recetas fáciles y rápidas para tragos que
+                            obtendrás recetas fáciles y rápidas para los mejores tragos que
                             puedan hacerse en casa!
                         </h2>
                         <IngredientsForm />
@@ -60,8 +60,9 @@ const Header = () => {
                         </h4>
                     </div>
                 </div>
-                {/* <div className="bg-gradient-to-br from-thirthBg to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"></div> */}
             </section>
+            {/* <div id="container-f4252e5fcae282409d4f301ce43542f1" className='text-white '></div> */}
+            
         </>
     );
 };
