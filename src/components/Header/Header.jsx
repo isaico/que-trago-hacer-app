@@ -61,7 +61,7 @@ const Header = () => {
                     </div>
                 </div>
             </section>
-            {/* <div id="container-f4252e5fcae282409d4f301ce43542f1" className='text-white '></div> */}
+            {/*ads: <div id="container-f4252e5fcae282409d4f301ce43542f1" className='text-white '></div> */}
             
         </>
     );

@@ -5,7 +5,6 @@ import DefaultModal from '../Modal/Modal';
 // import useWindowDimensions from 'react-use';
 const Cocktail = ({ item }) => {
     const { userIngredients } = useContext(CocktailsContext);
-
     return (
         <>
             <div

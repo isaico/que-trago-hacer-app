@@ -1,9 +1,7 @@
 import Footer from '../components/Footer/Footer';
 import Main from '../components/Main/Main';
 import AdsTerra from '../components/AdsTerra/AdsTerra';
-import  DefaultToast  from  "../components/Toast/DefaultToast"
-// export const AppContext = React.createContext();
-
+import DefaultToast from '../components/Toast/DefaultToast';
 const Layout = () => {
     return (
         <>
@@ -11,7 +9,7 @@ const Layout = () => {
                 <Main />
                 <AdsTerra />
                 <Footer />
-                <DefaultToast></DefaultToast>
+                <DefaultToast />
             </div>
         </>
     );
