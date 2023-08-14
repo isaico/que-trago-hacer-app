@@ -11,15 +11,15 @@ const Footer = () => {
                     >
                         <Logo />
 
-                        <span className="text-xl sm:text-2xl font-semibold whitespace-nowrap text-white neon">
+                        <span className="text-xl  sm:text-2xl font-semibold whitespace-nowrap text-white neon">
                             ¿Qué Trago Hacer?
                         </span>
                     </a>
-                    <ul className="flex justify-center  flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <ul className="flex justify-center gap-5 lg:gap-0  flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <Link
                                 to="/how-to-use"
-                                className="mr-4 hover:underline md:mr-6 "
+                                className=" hover:underline md:mr-6 mr-6 "
                             >
                                 Como usar?
                             </Link>

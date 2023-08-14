@@ -1,6 +1,6 @@
 import Layout from './layout/Layout';
-import HowToUse from './layout/HowToUse';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HowToUse from './layout/HowToUse';
 function App() {
     return (
         <>

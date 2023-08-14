@@ -40,8 +40,8 @@ module.exports = {
         },
         fontFamily: {
             sans: ['Graphik', 'sans-serif'],
-            tilt: ['Tilt Neon'],
-            poppins: ['Poppins'],
+            tilt: ['Tilt Neon',],
+            poppins: ['Poppins','sans-serif'],
             
         },
         extend: {

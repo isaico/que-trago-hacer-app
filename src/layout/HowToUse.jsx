@@ -1,5 +1,4 @@
 import React from 'react';
-import Title from '../components/Title/Title';
 import inputZoneScreen from '../assets/input-zone-screenshoot.jpg';
 import ingredientsTagScreens from '../assets/ingredients-tags-screenshoot.jpg';
 import cocktailCardScreen from '../assets/cocktail-card-screenshoot.jpg';
@@ -34,17 +33,27 @@ const HowToUse = () => {
                 </svg>
             </Link>
             <div className="grid justify-items-center place-self-center text-center ">
-                <Title />
+                <h2 className="neon text-3xl sm:text-5xl font-tilt sm:pb-8 pb-4">
+                    Como usar?, no te pierdas de ningun trago!
+                </h2>
             </div>
             <div className=" bg-secondaryBg rounded-xl flex flex-col  justify-items-center p-8 mb-12 text-center ">
                 <div className="bg-thirthBg rounded-xl">
-                    <h2 className="text-gray-200 sm:text-2xl  text-md  py-4 sm:pl-4  rounded-bl-none rounded-br-none rounded-xl">
-                        ¿No sabes que trago o coctel puedes hacer?. ¿Tienes unos
-                        ingredientes a mano y no sabes como mezclarlos?
-                    </h2>
+                    <ul className="text-gray-200 sm:text-xl  text-sm  py-4 sm:pl-4  rounded-bl-none rounded-br-none rounded-xl">
+                        Si te preguntas:
+                        <li>
+                            <h3>¿Que trago o coctel hacer?</h3>
+                        </li>
+                        <li>
+                            <h3>
+                                ¿Tengo ingredientes pero no se que hacer y
+                                quiero saber las recetas?
+                            </h3>
+                        </li>
+                    </ul>
                     <h3 className="text-gray-300 sm:text-xl  text-sm sm:pb-4 pb-2 pl-4  ">
                         No te preocupes, te ayudamos!... Hacer tragos fáciles y
-                        económicos en casa nunca fue tan sencillo. 
+                        económicos en casa nunca fue tan sencillo.
                     </h3>
 
                     <h3 className="text-gray-300 sm:text-xl  text-sm sm:pb-4 pb-2 pl-4 ">
@@ -92,6 +101,7 @@ const HowToUse = () => {
                         puedes ingresar texto!
                     </p>
                     <img
+                        loading="lazy"
                         className="h-auto md:max-w-lg  rounded-lg max-w-[15rem] "
                         src={inputZoneScreen}
                         alt="screenshot de una seccion de la pagina web en la cual se muestra un input de tipo texto un boton para agregar y 2 botones inferiores que dicen ver todos y ocultar todos!"
@@ -123,6 +133,7 @@ const HowToUse = () => {
                         "Ingredientes"!
                     </p>
                     <img
+                        loading="lazy"
                         className="h-auto md:max-w-lg  rounded-lg max-w-[15rem]"
                         src={ingredientsTagScreens}
                         alt="screenshot de una seccion de la pagina web en la cual se muestra un titulo 'ingredientes' y un item 'Ron' cargado por un usuario"
@@ -155,6 +166,7 @@ const HowToUse = () => {
                         trago ideal!
                     </p>
                     <img
+                        loading="lazy"
                         className="h-auto md:max-w-lg  rounded-lg max-w-[15rem]"
                         src={cocktailCardScreen}
                         alt="screenshot de una seccion de la pagina web en la cual se muestra un titulo 'ingredientes' y un item 'Ron' cargado por un usuario"
